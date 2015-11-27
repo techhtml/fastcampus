@@ -9,9 +9,11 @@
     <body>
         <header>
             <h1><a href="https://medium.com/">Medium</a></h1>
-            <p><a href="https://medium.com/">HOME</a></p>
-            <p><a href="https://medium.com/top-stories">TOP STORIES</a></p>
-            <p><a href="https://medium.com/me/bookmarks">BOOKMARKS</a></p>
+            <nav>
+                <a href="https://medium.com/">HOME</a>
+                <a href="https://medium.com/top-stories">TOP STORIES</a>
+                <a href="https://medium.com/me/bookmarks">BOOKMARKS</a>
+            </nav>
             <form action="search.php" method="post">
                 <input name="search" type="text">
                 <input type="submit">
@@ -21,9 +23,9 @@
             <button type="button">준형</button>
         </header>
         <main>
-            <P>준형</P>
+            <!-- 이 정체불명의 준형은 어디있는걸까여... -->
+            <p>준형</p>
             <button type="button">Write here...</button>
-            <hr>
             <ul>
                 <li>
                     <p>Recommended by <a href="https://medium.com/@MediumStaff">Medium staff</a> and 11 others</p>
@@ -34,11 +36,13 @@
                         <dd><a href="https://medium.com/@c.j.chivers/danger-do-not-open-red-mercury-inside-7b6f9e1cc2b2?source=reading_list---recommended_user------1">1 day ago</a>3 min read</dd>
                     </dl>
                     <a href="https://medium.com/@c.j.chivers/danger-do-not-open-red-mercury-inside-7b6f9e1cc2b2?source=reading_list---recommended_user------1">
+                        <!-- h2가 왜 이리 중간에 있나요? -->
                         <h2>Danger! Do Not Open! Red Mercury Inside.</h2>
                         <img src="https://cdn-images-1.medium.com/max/1600/1*xxxkPxGgn_6y-QbzIq7y6w.jpeg" alt="Danger! Do Not Open! Red Mercury Inside.">
                         <p>Since last week, when The New York Times Magazine posted the on-line version of The Doomsday Scam, an article about…</p>
                         <p>Read more...</p>
                     </a>
+                    <!-- button에 type 써주세요 -->
                     <p><button>좋아요</button>14</p>
                 </li>
                 <li>
