@@ -1,0 +1,38 @@
+ol, ul, li {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:#fff;
+}
+header h1 {
+    float:left;
+    margin:0;
+}
+header nav {
+    float:left;
+}
+header nav ul {
+    float:left;
+    padding:0;
+    margin:0;
+}
+header nav ul li {
+    float:left;
+    margin-right:10px;
+}
+header nav ul li a {
+    display:block;
+    padding:20px 0;
+    color:#000;
+    border-bottom:1px solid #FFF;
+    text-decoration:none;
+}
+header nav ul li a:hover {
+    border-bottom:1px solid #000
+}
